@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    heigh:48px;
+    background-color: black;
+}
+
+.navbar ul, li {
+    display: inline-block;
+    height: 100%;
+}
+
+.navbar ul, li a {
+    line-heigh: 48px;
+    display: inline-block;
+    height: 100%;
+    color: white;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+}
+
+.navbar ul, li a:hover {
+    color: blue;
+
+}
+
+.right {
+    float: right;
+}
